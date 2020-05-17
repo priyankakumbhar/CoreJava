@@ -28,6 +28,10 @@ public class FethData {
 		{
 			e.printStackTrace();
 		}
+		finally
+		{
+			stmt.close();
+			con.close();
 	}
 
 }
